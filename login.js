@@ -88,9 +88,3 @@ function closeLoading() {
         loadingToast = null;
     }
 }
-function aass() {
-    if (loadingToast) {
-        loadingToast.clear();
-        loadingToast = null;
-    }
-}
