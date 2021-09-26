@@ -2,7 +2,7 @@ let userInfoToken = '';
 let locationUrl = '';
 let isPreView = false;
 let shareLink = [];
-let aCode = '936';
+let aCode = 'ACODE';
 let activityID = '';
 let loadingToast = null;
 let baseUrl = 'https://test-mp-server.bfemusic.com';
@@ -83,6 +83,12 @@ function showLoading() {
     }
 }
 function closeLoading() {
+    if (loadingToast) {
+        loadingToast.clear();
+        loadingToast = null;
+    }
+}
+function aass() {
     if (loadingToast) {
         loadingToast.clear();
         loadingToast = null;
