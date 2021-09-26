@@ -88,3 +88,6 @@ function closeLoading() {
         loadingToast = null;
     }
 }
+function aa () {
+    console.log('ssa');
+}
